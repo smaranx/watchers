@@ -1,0 +1,133 @@
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px 0;
+    transition: all .5s ease;
+    padding: 8px;
+    border: 2px solid #fff;
+    background: #fff;
+  }
+  .team-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px 0;
+    transition: all .5s ease;
+    padding: 8px;
+    border: 2px solid rgb(255, 1, 1);
+    background: rgb(255, 4, 4);
+  }
+  
+  .swiper-slide img:hover {
+    background:rgb(255, 4, 4);
+    border-radius: 25px;
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transform: rotate(0deg) !important;
+    transform: scale(1.35);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+
+}
+  
+
+.team-img2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px 0;
+  transition: all .5s ease;
+  padding: 8px;
+  border: 2px solid rgb(247, 247, 247);
+  background: rgb(255, 255, 255);
+}.team-img2:hover {
+  border: 2px solid red;
+
+  background:rgb(255, 0, 0);
+  border-radius: 25px;
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+z-index: 10;
+transform: scale(1.08) !important;
+
+}
+
+.team-img3 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px 0;
+  transition: all .5s ease;
+  padding: 8px;
+  border: 2px solid rgb(247, 247, 247);
+  background: rgb(255, 255, 255);
+}.team-img3:hover {
+  border: 2px solid red;
+
+  background:rgb(255, 0, 0);
+  border-radius: 25px;
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+z-index: 10;
+transform: scale(1.08) !important;
+
+}
+@media screen and (max-width: 991px) {
+  .team-img2 {
+    margin-top: 40px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .team-img3 {
+    margin-top: -22rem !important;
+  }
+}
+.team-img:hover {
+  background:rgb(255, 255, 255);
+  border-radius: 25px;
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+z-index: 10;
+transform: scale(1.08) !important;
+
+}
+.marg2
+{
+  text-align: center;
+    margin: auto;
+    top: 50%;
+}

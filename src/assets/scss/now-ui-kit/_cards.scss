@@ -1,0 +1,54 @@
+.card-title
+{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.card{
+  border: 0;
+  border-radius: $border-radius-small;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: transparent;
+
+  .card-header{
+    background-color: $transparent-bg;
+    border-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .card-footer{
+    padding: 0;
+    margin-top: 15px;
+    background-color: $transparent-bg;
+    border:0;
+  }
+
+  &[data-background-color="orange"]{
+      background-color: $primary-color;
+  }
+
+  &[data-background-color="red"]{
+      background-color: $danger-color;
+  }
+
+  &[data-background-color="yellow"]{
+      background-color: $warning-color;
+  }
+
+  &[data-background-color="blue"]{
+      background-color: $info-color;
+  }
+
+  &[data-background-color="green"]{
+      background-color: darken($success-color, 5%);
+  }
+}
