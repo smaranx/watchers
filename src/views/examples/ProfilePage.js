@@ -347,7 +347,7 @@ Everyone has to start somewhere, this is just the beginning.
         <h2 tyle={{marginBottom: "0px"}}>COMMUNITY</h2>
         </div>     <div className="timeline-content-info">
 
-        <p id="mob"> {showMore4 ? text4 : `${text4.substring(0, 200)}`} <br></br>
+        <p id="mob"> {showMore4 ? text4 : `${text4.substring(0, 500)}`} <br></br>
                          </p>
         </div>
 
@@ -361,7 +361,7 @@ Everyone has to start somewhere, this is just the beginning.
         </div >
         <div data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000" className="text-center" style={ showMore4 ? { marginTop:'13rem'} : {marginTop:'1rem'} } >
+          data-aos-duration="2000" className="text-center" style={ showMore4 ? { marginTop:'13rem'} : {marginTop:'10rem'} } >
           <Container >
             <div className="team" >
               <Row>
